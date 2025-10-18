@@ -1,0 +1,107 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e9f1ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: #4a76e8;
+  padding: 10px 20px;
+  border-radius: 4px;
+  width: fit-content;
+  margin: 0 auto 20px auto;
+  display: block;
+  font-size: 20px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 700px;             
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+form > p strong {
+  display: block;           
+  text-align: center;
+  margin: 10px 0 8px 0;
+  font-size: 16px;
+  color: #2f51c8;
+}
+
+
+form > table {
+  width: 100%;
+  margin: 0 0 16px 0;
+  border-collapse: separate; 
+}
+
+
+form > table td {
+  padding: 6px 8px;
+}
+
+
+form > table input[type="text"],
+form > table select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+fieldset {
+  border: 2px solid #4a76e8;  
+  padding: 10px;
+  margin: 16px 0;
+  background-color: #f9fbff;
+}
+
+legend {
+  font-weight: bold;
+  color: #4a76e8;
+}
+
+
+input, select {
+  padding: 4px;
+  border: 1px solid #ccc;
+}
+
+
+input[type="radio"] {
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+
+p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+input[type="submit"] {
+  width: 60%;     
+  max-width: 360px;
+  background-color: #4a76e8;
+  color: white;
+  padding: 8px 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+input[type="submit"]:hover {
+  background-color: #355fcc;
+}
